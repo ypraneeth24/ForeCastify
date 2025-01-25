@@ -2,7 +2,7 @@ const btn = document.getElementById('btn');
 btn.addEventListener('click', getWeather);
 
 function getWeather() {
-    const apiKey = "dc49d57a84f69467bbad1030c0efec20";
+    const apiKey = "YOUR API KEY";
     const city = document.getElementById("city").value;
     if (!city) {
         alert('Please enter a city');
